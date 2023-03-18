@@ -31,7 +31,7 @@ const Home: NextPage = () => {
       const key = new Web3.PublicKey(address)
 
       // Creating a new Web3.Connection instance with a specific URL endpoint
-      const connection = new Web3.Connection('https://blue-fragrant-tree.solana-mainnet.quiknode.pro/f32f16f2ade36fb692a860f23b428b0c86d93403/');
+      const connection = new Web3.Connection(//'ADD_YOUR_NODE_URL_HERE');
 
       // Getting the balance of the specified 'key' using the 'getBalance' method, which returns a Promise
       connection.getBalance(key).then(balance => {
