@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .App {
   text-align: center;
 }
 
 .AppHeader {
-  background-color: #282c34;
+  background-color: #025829;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(4px + 2vmin);
+  color: antiquewhite;
+  font-family: 'Press Start 2P';
 }
